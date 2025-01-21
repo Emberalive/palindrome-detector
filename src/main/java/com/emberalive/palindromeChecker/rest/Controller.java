@@ -36,7 +36,7 @@ public class Controller {
         } else {
             message = palindrome + " is not a palindrome.";
             backgroundColor = "red";
-            logger.info("Input is not a palindrome: {}", palindrome);
+            logger.debug("Input is not a palindrome: {}", palindrome);
         }
 
         Map<String, String> response = new HashMap<>();

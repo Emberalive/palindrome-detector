@@ -13,6 +13,5 @@ public class Main {
     public static void main(String[] args) {
         logger.info("Starting Palindrome Checker");
         SpringApplication.run(Main.class, args);
-        logger.info("Application started successfully");
     }
 }
